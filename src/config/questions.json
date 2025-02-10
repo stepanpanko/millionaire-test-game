@@ -1,0 +1,162 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "step": 1,
+      "text": "What is the capital of France?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Berlin", "isCorrect": false },
+        { "id": "b", "text": "Madrid", "isCorrect": false },
+        { "id": "c", "text": "Paris", "isCorrect": true },
+        { "id": "d", "text": "Rome", "isCorrect": false },
+        { "id": "e", "text": "Lyon", "isCorrect": false }
+      ],
+      "prize": 500
+    },
+    {
+      "id": 2,
+      "step": 2,
+      "text": "Which planet is known as the Red Planet?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Venus", "isCorrect": false },
+        { "id": "b", "text": "Mars", "isCorrect": true },
+        { "id": "c", "text": "Jupiter", "isCorrect": false },
+        { "id": "d", "text": "Saturn", "isCorrect": false }
+      ],
+      "prize": 1000
+    },
+    {
+      "id": 3,
+      "step": 3,
+      "text": "Which two playwrights were prominent figures of the Elizabethan era?",
+      "type": "multi",
+      "options": [
+        { "id": "a", "text": "Charles Dickens", "isCorrect": false },
+        { "id": "b", "text": "William Shakespeare", "isCorrect": true },
+        { "id": "c", "text": "Mark Twain", "isCorrect": false },
+        { "id": "d", "text": "J.K. Rowling", "isCorrect": false },
+        { "id": "e", "text": "Christopher Marlowe", "isCorrect": true }
+      ],
+      "prize": 2000
+    },
+    {
+      "id": 4,
+      "step": 4,
+      "text": "What is the boiling point of water at sea level (in Celsius)?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "90°C", "isCorrect": false },
+        { "id": "b", "text": "95°C", "isCorrect": false },
+        { "id": "c", "text": "100°C", "isCorrect": true },
+        { "id": "d", "text": "105°C", "isCorrect": false }
+      ],
+      "prize": 4000
+    },
+    {
+      "id": 5,
+      "step": 5,
+      "text": "What is the largest ocean on Earth?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Atlantic Ocean", "isCorrect": false },
+        { "id": "b", "text": "Indian Ocean", "isCorrect": false },
+        { "id": "c", "text": "Arctic Ocean", "isCorrect": false },
+        { "id": "d", "text": "Pacific Ocean", "isCorrect": true }
+      ],
+      "prize": 8000
+    },
+    {
+      "id": 6,
+      "step": 6,
+      "text": "Who painted the Mona Lisa?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Leonardo da Vinci", "isCorrect": true },
+        { "id": "b", "text": "Vincent van Gogh", "isCorrect": false },
+        { "id": "c", "text": "Pablo Picasso", "isCorrect": false },
+        { "id": "d", "text": "Claude Monet", "isCorrect": false }
+      ],
+      "prize": 16000
+    },
+    {
+      "id": 7,
+      "step": 7,
+      "text": "Which element has the chemical symbol 'O'?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Gold", "isCorrect": false },
+        { "id": "b", "text": "Oxygen", "isCorrect": true },
+        { "id": "c", "text": "Silver", "isCorrect": false },
+        { "id": "d", "text": "Iron", "isCorrect": false }
+      ],
+      "prize": 32000
+    },
+    {
+      "id": 8,
+      "step": 8,
+      "text": "What is the currency of Japan?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Yen", "isCorrect": true },
+        { "id": "b", "text": "Dollar", "isCorrect": false },
+        { "id": "c", "text": "Euro", "isCorrect": false },
+        { "id": "d", "text": "Pound", "isCorrect": false }
+      ],
+      "prize": 64000
+    },
+    {
+      "id": 9,
+      "step": 9,
+      "text": "Which country hosted the 2016 Summer Olympics?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "China", "isCorrect": false },
+        { "id": "b", "text": "Brazil", "isCorrect": true },
+        { "id": "c", "text": "United Kingdom", "isCorrect": false },
+        { "id": "d", "text": "Ukraine", "isCorrect": false }
+      ],
+      "prize": 125000
+    },
+    {
+      "id": 10,
+      "step": 10,
+      "text": "Which of the following are among the hardest natural substances on Earth?",
+      "type": "multi",
+      "options": [
+        { "id": "a", "text": "Gold", "isCorrect": false },
+        { "id": "b", "text": "Iron", "isCorrect": false },
+        { "id": "c", "text": "Diamond", "isCorrect": true },
+        { "id": "d", "text": "Corundum", "isCorrect": true }
+      ],
+      "prize": 250000
+    },
+    {
+      "id": 11,
+      "step": 11,
+      "text": "What is the smallest prime number?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "0", "isCorrect": false },
+        { "id": "b", "text": "1", "isCorrect": false },
+        { "id": "c", "text": "2", "isCorrect": true },
+        { "id": "d", "text": "3", "isCorrect": false }
+      ],
+      "prize": 500000
+    },
+    {
+      "id": 12,
+      "step": 12,
+      "text": "Who is known as the 'Father of Computers'?",
+      "type": "single",
+      "options": [
+        { "id": "a", "text": "Thomas Edison", "isCorrect": false },
+        { "id": "b", "text": "Albert Einstein", "isCorrect": false },
+        { "id": "c", "text": "Charles Babbage", "isCorrect": true },
+        { "id": "d", "text": "Isaac Newton", "isCorrect": false }
+      ],
+      "prize": 1000000
+    }
+  ]
+}

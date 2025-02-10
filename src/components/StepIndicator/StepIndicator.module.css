@@ -1,0 +1,21 @@
+.stepContainer {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 320px;  
+    }
+    
+    .stepLabel {
+      position: absolute;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+    }
+    
+    .stepContainer svg {
+      width: 100%; 
+      height: auto;
+      max-width: 376px; 
+    }
+    

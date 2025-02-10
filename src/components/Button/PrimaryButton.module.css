@@ -1,0 +1,33 @@
+.primaryButton {
+  background-color: #ff8b37;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 20px;
+  width: 100%;
+  max-width: 296px;
+  height: 64px;
+}
+
+@media (max-width: 768px) {
+  .primaryButton {
+    width: 288px;
+    font-size: 14px;
+    height: 48px;
+  }
+}
+
+.primaryButton:hover {
+  background-color: #ffac70;
+}
+
+.primaryButton.pressed {
+  background-color: #e87928;
+}
