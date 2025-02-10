@@ -1,11 +1,12 @@
 "use client";
 
+import { Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { PrimaryButton } from "@/components/Button/PrimaryButton";
 import styles from "@/components/EndScreen/EndScreen.module.css";
 import { ThumbsUpIcon } from "@/components/icons/ThumbsUpIcon";
 
-export default function EndScreen() {
+function EndScreenContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const scoreParam = searchParams.get("score");
@@ -30,5 +31,13 @@ export default function EndScreen() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function EndScreen() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <EndScreenContent />
+    </Suspense>
   );
 }
